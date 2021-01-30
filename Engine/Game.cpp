@@ -52,5 +52,5 @@ void Game::UpdateModel()
 
 void Game::ComposeFrame()
 {
-	gfx.DrawSprite(200, 200, surf);
+	gfx.DrawSprite(0,0, surf);
 }

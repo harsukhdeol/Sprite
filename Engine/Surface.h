@@ -1,6 +1,5 @@
 #pragma once
 #include "Colors.h"
-#include "ChiliWin.h"
 #include <string>
 class Surface {
 
@@ -9,7 +8,7 @@ public:
 
 	Surface(int width, int height);
 	Surface(const Surface&);
-	Surface& operator=(const Surface&);
+	Surface& operator=(const Surface& rhs);
 	~Surface();
 	void PutPixel(int x, int y, Color c);
 	Color GetPixel(int x, int y) const;

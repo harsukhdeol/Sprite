@@ -42,8 +42,5 @@ private:
 	MainWindow& wnd;
 	Graphics gfx;
 	//Surface surf =  Surface(100, 100);
-	Surface surf = Surface("rgb.bmp");
-	/********************************/
-	/*  User Variables              */
-	/********************************/
+	Surface surf = { "rgb.bmp" };
 };
