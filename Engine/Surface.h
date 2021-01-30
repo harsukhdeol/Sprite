@@ -1,6 +1,7 @@
 #pragma once
 #include "Colors.h"
 #include <string>
+#include "RectI.h"
 class Surface {
 
 public:
@@ -14,7 +15,7 @@ public:
 	Color GetPixel(int x, int y) const;
 	int GetHeight() const;
 	int GetWidth() const;
-
+	RectI GetRect() const;
 private:
 	int width;
 	int height;
