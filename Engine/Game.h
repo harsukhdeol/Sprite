@@ -23,6 +23,7 @@
 #include "Keyboard.h"
 #include "Mouse.h"
 #include "Graphics.h"
+#include "Surface.h"
 
 class Game
 {
@@ -40,6 +41,8 @@ private:
 private:
 	MainWindow& wnd;
 	Graphics gfx;
+	//Surface surf =  Surface(100, 100);
+	Surface surf = Surface("rgb.bmp");
 	/********************************/
 	/*  User Variables              */
 	/********************************/
